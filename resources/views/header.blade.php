@@ -46,7 +46,7 @@
                         <ul class="list-unstyled">
                             <li><a href="/catalog" class="text-white">Каталог компаний</a></li>
                             <li><a href="/directory" class="text-white">Справочник</a></li>
-                            <li><a href="/gost" class="text-white">Стандарты и ГОСТы</a></li>
+                            <li><a href="/gosts" class="text-white">Стандарты и ГОСТы</a></li>
                             <li><a href="/library" class="text-white">Литература</a></li>
                         </ul>
                     </div>
