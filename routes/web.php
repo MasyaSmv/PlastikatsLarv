@@ -18,16 +18,21 @@ Route::get('/', 'MainController@home') -> name('/'); //Сначала url, по�
 
 // Госты
 Route::get('/gosts', 'GostController@gost') -> name('gosts');
-Route::get('/gosts/{gostes}', 'GostController@gostes') -> name('gostes');
+Route::get('/gosts/{gost?}', 'GostController@gostes') -> name('gostes');
 
 // Компании
 Route::get('/companys', 'CompanyController@companys') -> name('companys');
-Route::get('/companys/{company}', 'CompanyController@company') -> name('company');
+Route::get('/companys/{company?}', 'CompanyController@company') -> name('company');
 
 // Книги
 Route::get('/liblarys', 'LiblaryController@liblarys') -> name('liblarys');
-Route::get('/liblarys/{liblary}', 'LiblaryController@liblary') -> name('liblary');
+Route::get('/liblarys/{liblary?}', 'LiblaryController@liblary') -> name('liblary');
 
 // Справочник
 Route::get('/guides', 'GuideController@guides') -> name('guides');
-Route::get('/guides/{guide}', 'GuideController@guide') -> name('guide');
+Route::get('/guides/{guide?}', 'GuideController@guide') -> name('guide');
+
+//Маркетплейс
+Route::get('/market', function () {
+return view('marketplace.index');
+});

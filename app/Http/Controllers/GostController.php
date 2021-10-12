@@ -9,12 +9,13 @@ class GostController extends Controller
 {
     public function gost()
     {
-        $gosts = new gost();
-        return view('gost.gost', ['gosts' => $gosts->paginate(6)]);
+        $gosts = gost::get();
+        return view('gost.gost', compact('gosts'));
     }
 
-    public function gostes($id)
+    public function gostes()
     {
-        return view('gost.gostes');
+        $gosts = gost::get();
+        return view('gost.gostes', compact('gosts'));
     }
 }

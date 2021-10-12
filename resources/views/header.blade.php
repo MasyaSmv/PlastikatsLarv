@@ -44,10 +44,11 @@
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4 class="text-white">Другие страницы</h4>
                         <ul class="list-unstyled">
-                            <li><a href="/catalog" class="text-white">Каталог компаний</a></li>
-                            <li><a href="/directory" class="text-white">Справочник</a></li>
+                            <li><a href="/companys" class="text-white">Каталог компаний</a></li>
+                            <li><a href="/guides" class="text-white">Справочник</a></li>
                             <li><a href="/gosts" class="text-white">Стандарты и ГОСТы</a></li>
-                            <li><a href="/library" class="text-white">Литература</a></li>
+                            <li><a href="/liblarys" class="text-white">Литература</a></li>
+                            <li><a href="/market" class="text-white">Магазин</a></li>
                         </ul>
                     </div>
                 </div>
